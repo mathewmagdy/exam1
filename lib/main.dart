@@ -1,4 +1,5 @@
 import 'package:exam/second_page.dart';
+import 'package:exam/third_page.dart';
 import 'package:flutter/material.dart';
 
 import 'first_page.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         FirstPage.routeName: (context) => FirstPage(),
         SecondPage.routeName: (context) => SecondPage(),
+        ThirdPage.routeName: (context) => ThirdPage(),
       },
     );
   }
